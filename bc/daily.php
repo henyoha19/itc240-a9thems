@@ -35,7 +35,7 @@ switch($day)
 }
 
 ?>
-<?php include 'includes/header.php';?>
+<?php get_header()?>
 <h3> Daily Special</h3>          
 <p> Below you can see our daily special for <?=$day?>!</p>
 <p><?=$coffee?></p>
@@ -50,4 +50,4 @@ switch($day)
 <p> <a href="daily.php?day=Sunday">Sunday</a></p>          
         
          
- <?php include 'includes/footer.php';?>
+ <?php get_footer()?>

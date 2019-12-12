@@ -1,5 +1,5 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/header.php'?> 
+<?php get_header()?>
 <h2>Contact Us</h2>
 <?php
 
@@ -78,7 +78,7 @@ mail($to,$subject,$message,$headers);
 }
 ?>
 <?php 
-include 'includes/footer.php';
+get_footer();
 
 function process_post()
 {//loop through POST vars and return a single string
